@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Code Coverage') {
             steps {
-                bat mvn org.jacoco:jacoco-maven-plugin:0.8.12:report
+                bat 'mvn org.jacoco:jacoco-maven-plugin:0.8.12:report'
             }
         }
         stage('Publish Test Results') {
