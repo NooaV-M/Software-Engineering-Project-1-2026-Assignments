@@ -14,5 +14,13 @@ public class TemperatureConverter {
     public boolean isExtremeTemperatureCelsius(double celsius) {
         return celsius < -40 || celsius > 50;
     }
+
+    public static void main(String[] args) {
+        TemperatureConverter tc = new TemperatureConverter();
+        System.out.println("TemperatureConverter demo:");
+        System.out.printf("32 F -> %.2f C\n", tc.fahrenheitToCelsius(32));
+        System.out.printf("0 C -> %.2f F\n", tc.celsiusToFahrenheit(0));
+        System.out.printf("273.15 K -> %.2f C\n", tc.kelvinToCelsius(273.15));
+    }
 }
 
