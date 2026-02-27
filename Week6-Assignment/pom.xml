@@ -21,6 +21,7 @@
     </dependencies>
 
     <build>
+        <finalName>TemperatureConverter</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
