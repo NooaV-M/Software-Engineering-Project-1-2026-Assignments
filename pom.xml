@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Week5-Assignment</module>
+        <module>Week6-Assignment</module>
     </modules>
 
     <properties>

@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>Week5-Assignment</artifactId>
+    <artifactId>Week6-Assignment</artifactId>
 
     <dependencies>
         <dependency>
