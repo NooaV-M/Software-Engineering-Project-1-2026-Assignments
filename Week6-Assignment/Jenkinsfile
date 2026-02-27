@@ -46,7 +46,8 @@ environment {
         stage('Build Docker Image') {
                   steps {
                       script {
-                          docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}")
+                          // Build using the Dockerfile located in Week6-Assignment. Use the workspace root as build context so parent POM is available.
+                          docker.build("${DOCKERHUB_REPO}:${DOCKER_IMAGE_TAG}", "-f Week6-Assignment/Dockerfile .")
                       }
                   }
               }
